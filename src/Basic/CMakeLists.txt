@@ -132,6 +132,51 @@ set( OD_MODULE_SOURCES
 	uistringset.cc
 	winutils.cc
 	zdomain.cc
+        csAbsoluteTime.cc
+	csDespike.cc
+	cseis_curveFitting.cc
+	csEquationSolver.cc
+	csException.cc
+	csFFTDesignature.cc
+	csFFTTools.cc
+	csFileUtils.cc
+	csFlexHeader.cc
+	csFlexNumber.cc
+	csGeolibUtils.cc
+	csHeaderInfo.cc
+	csInterpolation.cc
+	csIOSelection.cc
+	csIReader.cc
+	csNMOCorrection.cc
+	csPositioning.cc
+	csRotation.cc
+	csSelection.cc
+	csSelectionFieldDouble.cc
+	csSelectionFieldInt.cc
+	csSortManager.cc
+	csStandardHeaders.cc
+	csTableAll.cc
+	csTable.cc
+	csTableNew.cc
+	csTimer.cc
+	csTimeStretch.cc
+	csToken.cc
+	fft.cc
+	geolib_endian.cc
+	geolib_math.cc
+	geolib_mem.cc
+	geolib_string_utils.cc
+	methods_ccp.cc
+	methods_linefit.cc
+	methods_number_conversions.cc
+	methods_orientation.cc
+	methods_polarity_correction.cc
+	methods_pzsum.cc
+	methods_rotation.cc
+	methods_sampleInterpolation.cc
+	svd_decomposition.cc
+	svd_linsolve.cc
+	tinyxml2.cc
 )
 
 set ( OD_MODULE_PROGS test_exit_program.cc )

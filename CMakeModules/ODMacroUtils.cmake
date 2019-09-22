@@ -111,6 +111,16 @@ if(OD_USEPROJ4)
     OD_SETUP_PROJ4()
 endif()
 
+# ---[ Google-glog
+FIND_PACKAGE(Glog)
+include_directories( ${GLOG_INCLUDE_DIRS} )
+LIST(APPEND OD_MODULE_EXTERNAL_LIBS ${GLOG_LIBRARIES})
+
+# ---[ Google-gflags
+FIND_PACKAGE(GFlags)
+include_directories( ${GFLAGS_INCLUDE_DIRS} )
+LIST(APPEND OD_MODULE_EXTERNAL_LIBS ${GFLAGS_LIBRARIES})
+
 #Add current module to include-path
 set( CMAKE_BINARY_DIR "${OD_BINARY_BASEDIR}" )
 if ( OD_MODULE_HAS_LIBRARY )

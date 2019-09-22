@@ -63,7 +63,7 @@ endif()
 set( OD_MODULES
 	Basic Algo General
 	Strat Network Batch
-	Geometry EarthModel Well MMProc Seis
+	Geometry EarthModel Well MMProc Seis ASSystem ASModules
 	NLA AttributeEngine Velocity
 	VolumeProcessing PreStackProcessing Attributes
 	MPEEngine EMAttrib WellAttrib

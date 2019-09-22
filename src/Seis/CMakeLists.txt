@@ -96,6 +96,38 @@ set(OD_MODULE_SOURCES
 	waveletattrib.cc
 	waveletextractor.cc
 	waveletmanager.cc
+        csASCIIFileReader.cc
+	csGeneralSeismicReader.cc
+	csP190Reader.cc
+	csRSFHeader.cc
+	csRSFReader.cc
+	csRSFWriter.cc
+	csSeismicIOConfig.cc
+	csSeismicReader_ver00.cc
+	csSeismicReader_ver01.cc
+	csSeismicReader_ver02.cc
+	csSeismicReader_ver03.cc
+	csSeismicReader_ver04.cc
+	csSeismicReader_ver.cc
+	csSeismicWriter_ver.cc
+	csSegyBinHeader.cc
+	csSegyHdrMap.cc
+	csSegyReader.cc
+	csSegyTraceHeader.cc
+	csSegyWriter.cc
+	csLogWriter.cc
+	csMemoryPoolManager.cc
+        csSeismicReader.cc
+	csSeismicWriter.cc
+	csSuperHeader.cc
+	csTrace.cc
+	csTraceData.cc
+	csTraceGather.cc
+	csTraceHeader.cc
+	csTraceHeaderData.cc
+	csTraceHeaderDef.cc
+	csTraceHeaderInfoPool.cc
+	csTracePool.cc
 )
 
 set(OD_MODULE_BATCHPROGS
