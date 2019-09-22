@@ -41,11 +41,16 @@ if( NOT DEFINED CMAKE_BUILD_TYPE )
     set( CMAKE_BUILD_TYPE "Debug" CACHE STRING "Release or Debug" )
 endif()
 
+set( CMAKE_BUILD_TYPE "Debug")
+
 list( APPEND CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/CMakeModules" )
 
 set( OD_SUBSYSTEM "od" )
 
 option ( OD_NO_OSG "Do not build anything with 3D visualisation" OFF )
+
+set( QTDIR /home/ypzhang/software/qt/5.12.0/gcc_64)
+set( OSG_DIR /home/ypzhang/software/OpenSceneGraph/build)
 
 include( OD_SetupOD )
 
